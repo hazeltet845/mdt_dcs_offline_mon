@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta name="author" content="Ethan Hazelton"/>
+		<title>MDT DCS Offline Monitoring</title>
+		<script src="../JsRoot611/scripts/JSRoot.core.min.js" type="text/javascript"></script>
+		<meta http-equiv="refresh" content="30">
+		<link rel="stylesheet" href="../CSS/style.css"/>
+	</head>
+	<body>
+		<!--<div class = "header">
+			<h1>MDT DCS Offline Monitoring</h1>
+		</div>-->
+		<ul>
+			<li><a href = "./home.html">Home</a></li>
+			<li><a href="./JTAG.html">JTAG</a></li>
+			<li class="dropdown">
+				<a href="#" class="dropbtn">HV</a>
+				<div class="dropdown-content">
+					<div class = "column">
+						<a href="./HV_ML1.html">ML1</a>
+						<a href="./HV_ML2.html">ML2</a>
+					</div>
+				</div>
+			</li>
+			<li><a href="./LV.html">LV</a></li>
+			<li><a href="./chamber.html">Chamber Selection</a></li>
+			<li><a href="./statistics.html">Statistics</a></li>
+
+		</ul>
+		<h2><b>Statistics</b></h2>
+		<table align = "center">
+			<tr>
+				<td>
+					<div class = "graphs" id = "d0"></div>
+					<script type='text/javascript'>
+						JSROOT.openFile("../root/test.root")
+						  .then(file => file.readObject("h1f;1"))
+						  .then(obj => {
+							  
+							  JSROOT.draw("d0", obj, "colz");
+						  });
+
+					 </script>
+				</td>
+			</tr>
+
+
+		</table>
+	</body>
+	
+</html>

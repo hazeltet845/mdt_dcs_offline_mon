@@ -1,0 +1,265 @@
+
+.td_class{
+	position: relative;
+}
+.EEL_EES{
+	position: absolute;
+    top: 18px;
+    left: 119px;
+}
+
+.EIL{
+	position: absolute;
+    top: 120px;
+    left: 139px;
+}
+
+.phi1{
+	pointer-events: none;
+	position: absolute;
+    top: 119px;
+    left: 36px;
+}
+
+.phi9{
+	pointer-events: none;
+	position: absolute;
+    top: 119px;
+    right: 34px;
+}
+
+.BEE_L{
+	position: absolute;
+    top: -20px;
+    left: 0px;
+}
+
+.BEE_R{
+	position: absolute;
+    top: -20px;
+    right: 0px;
+}
+
+.BIS_BIL_L{
+	position: absolute;
+    top: -20px;
+    left: 75px;
+}
+
+.BIS_BIL_R{
+	position: absolute;
+    top: -20px;
+    right: 75px;
+}
+
+.BIR_L0{
+	pointer-events: none;
+	position: absolute;
+    top: 185px;
+    left: 45px;
+	font-size: 11px;
+}
+
+.BIR_L1{
+	pointer-events: none;
+	position: absolute;
+    top: 250px;
+    left: 45px;
+	font-size: 11px;
+}
+
+.BIM_L0{
+	pointer-events: none;
+	position: absolute;
+    top: 172px;
+    left: 58px;
+	font-size: 11px;
+}
+
+.BIM_L1{
+	pointer-events: none;
+	position: absolute;
+    top: 262px;
+    left: 58px;
+	font-size: 11px;
+}
+
+.phi1_bi{
+	pointer-events: none;
+	position: absolute;
+    top: 11px;
+    left: 148px;
+	font-size: 11px;
+}
+
+.phi16_bi{
+	pointer-events: none;
+	position: absolute;
+    bottom: -11px;
+    left: 144.5px;
+	font-size: 11px;
+}
+
+.EML_EMS{
+	position: absolute;
+    top: 122px;
+    left: 116px;
+}
+
+.BMS_BML_L{
+	position: absolute;
+    top: -4px;
+    left: 45px;
+}
+
+.BMS_BML_R{
+	position: absolute;
+    top: -4px;
+    right: 45px;
+}
+
+.BME_L0{
+	pointer-events: none;
+	position: absolute;
+	top: 233px;
+    left: 42.5px;
+	font-size: 8px;
+}
+
+.BME_R0{
+	pointer-events: none;
+	position: absolute;
+    top: 233px;
+    right: 41.5px;
+	font-size: 8px;
+}
+
+.BME_L1{
+	pointer-events: none;
+	position: absolute;
+	top: 233px;
+    left: 63px;
+	font-size: 8px;
+}
+
+.BME_R1{
+	pointer-events: none;
+	position: absolute;
+    top: 233px;
+    right: 61.5px;
+	font-size: 8px;
+}
+
+.phi1_O{
+	pointer-events: none;
+	position: absolute;
+    top: 119px;
+    left: 30px;
+}
+
+.phi9_O{
+	pointer-events: none;
+	position: absolute;
+    top: 119px;
+    right: 28px;
+}
+
+.phi1_bm{
+	pointer-events: none;
+	position: absolute;
+    top: 20px;
+    left: 149px;
+	font-size: 11px;
+}
+
+.BOS_BOL_L{
+	position: absolute;
+    top: -4px;
+    left: 53px;
+}
+
+.BOS_BOL_R{
+	position: absolute;
+    top: -4px;
+    right: 53px;
+}
+
+.BOF_L0{
+	pointer-events: none;
+	position: absolute;
+	top: 213px;
+    left: 126px;
+	font-size: 7px;
+}
+
+.BOF_R0{
+	pointer-events: none;
+	position: absolute;
+    top: 213px;
+    right: 126px;
+	font-size: 7px;
+}
+
+.BOG_L1{
+	pointer-events: none;
+	position: absolute;
+	top: 213px;
+    left: 107.5px;
+	font-size: 7px;
+}
+
+.BOG_R1{
+	pointer-events: none;
+	position: absolute;
+    top: 213px;
+    right: 107.5px;
+	font-size: 7px;
+}
+
+.BOF_L2{
+	pointer-events: none;
+	position: absolute;
+	top: 247px;
+    left: 126px;
+	font-size: 7px;
+}
+
+.BOF_R2{
+	pointer-events: none;
+	position: absolute;
+    top: 247px;
+    right: 126px;
+	font-size: 7px;
+}
+
+.BOG_L3{
+	pointer-events: none;
+	position: absolute;
+	top: 247px;
+    left: 107.5px;
+	font-size: 7px;
+}
+
+.BOG_R3{
+	pointer-events: none;
+	position: absolute;
+    top: 247px;
+    right: 107.5px;
+	font-size: 7px;
+}
+
+.BOE_L{
+	pointer-events: none;
+	position: absolute;
+	top: 235px;
+    left: 19.5px;
+	font-size: 7px;
+}
+
+.BOE_R{
+	pointer-events: none;
+	position: absolute;
+    top: 235px;
+    right: 20px;
+	font-size: 7px;
+}
